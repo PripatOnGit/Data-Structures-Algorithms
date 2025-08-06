@@ -9,8 +9,6 @@ Only 1771 contains an even number of digits.
 #Solution:
 
 from typing import List
-
-
 class Solution:
     def findNumbers(self, nums: List[int]) -> int:
         def countDigit(num):
